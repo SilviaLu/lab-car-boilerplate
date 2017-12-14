@@ -13,44 +13,76 @@
     <title>Lab-Car-boilerplate</title>
 </head>
 <body>
-    <nav class="navbar navbar-default">
-			<div class="container">
-				<img src="assets/images/logoForma.png" alt="logo">
 
-				<ul class="dropdwon">
-					<li>Viaja</li>
-					<li>Conduce</li>
-					<li>Inicia sesión</li>
-				</ul>
-			</div>
+					<!--Navbar-->
+    <nav class="navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+							aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<img src="assets/images/logoForma.png" alt="logo">
+
+						<div id="navbar" class="navbar-collapse collapse navbar-right">
+							<ul class="nav navbar-nav">
+								<li class="active"> 
+									<a href="#viaja">Viaja</a>
+								</li>
+								<li> 
+									<a href="#conduce">Conduce</a>
+								</li>
+								<li> 
+									<a href="#sesion">Inicia sesión</a>
+								</li>
+							</ul>
+						</div>  <!-- div del ul -->
+					</div>  <!-- col -->
+				</div> <!-- row -->
+			</div>  <!-- container -->
 		</nav>
-    <section class="car-yellow">
-        <div class="imagen-1">
-					<div class="box-1">
-						<h3>Disfruta del viaje <br>Eres dueño de tu tiempo</h3><br><br>
-						<span>viaja con<img src="assets/images/ogoBlanco.png" alt=""></span>
-						<a href="#">REGISTRATE</a>
-						<div>o bien</div>
-						<a href="#">Conviertete en un conductor</a>
-				</div>   	<!-- box-1 -->
-			</div >  <!--imagen-1 -->
-			
+
+    <section class="jumbotron  imagen1">
+        <div class="container">
+					<div class="col-xs-8 col-offset-4 box-1">
+						<h3 class="text-movil">Comienza a viajar<br>con</h3><span><img class="img-responsive logoxs" src="assets/images/logoBlanco.png" alt="logo-movil"></span> <br><br>
+						<p><button type="button" class="btn btn-lg btn-default">Descargar la app</button></p>
+					</div>
+				</div> 
 		</section> <!--car-yellow -->
+
 		<section class="cell-phone">
-			<div class="iPhone6"><img src="assets/images/iPhone6Plus.png" alt=""></div>
-			<div><p>Descarga la nueva app</p>
-			<p>La version actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún mas fácil y rápido</p>
-			<p>Con solo tocar un botón, un auto llega justo a tu ubicacion. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir</p></div>
-	 </section>  <!--box-2-->
+			<div class="container">
+				<div class="row ">
+					<div class="col-xs-12">
+						<div class="phone">
+							<h2 class="text-center">La nueva app</h2>
+							<div class="text-center">
+							<img src="assets/images/iPhone6Plus.png" class="rounded" alt="">
+							</div>
+							<h2 class="text-center">Llega a tu destino aún más rápido</h2>
+						</div>
+					</div>
+				</div> <!--row-->
+			</div> <!--container-->
+	 </section> <!--cell phone-->
+
 
 	 <section class="drive">
-			<div class="manejando">
-				<h3>Conduce cuando quieras</h3>
-				<p>Labcar es una opcion flexible para alcanzar tus metas financieras</p>
-				<div>
+			<div class="container">
+				<div class="row">
+					<h3>Conduce cuando quieras</h3>
+					<p>Labcar es una opcion flexible para alcanzar tus metas financieras</p>
+
+					<div>
 					<a href="#">Conviertete en conductor</a>
-				 </div>  <!--boton del box3 -->
-			</div>
+				</div>  <!--row-->
+			</div> <!--container-->
 	</section>  <!--drive-box 3-->
 
 	<section class="tarifas">
@@ -59,10 +91,10 @@
 			<p>Consulta las tarifas LabCar aquí</p>
 			<form action="">
 				<span>
-					<img src="assets/images/shape.png" alt="icon-1">    <input type="text" value="Ingresa tu punto de partida"></span>
+					<img src="assets/images/shape.png" alt="icon-1">    <input type="text" placeholder="Ingresa tu punto de partida"></span>
 
 				<span>
-						<img src="assets/images/shape2.png" alt="icon-2">    <input type="text" value="Ingresa tu destino"></span>
+						<img src="assets/images/shape2.png" alt="icon-2">    <input type="text" placeholder="Ingresa tu destino"></span>
 			</form>
 			<div class="btn">
 				<a href="#">¡TRAZAR RUTA!</a>
