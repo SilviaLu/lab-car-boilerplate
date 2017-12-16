@@ -2,7 +2,9 @@
 body{
     padding-top: 70px;
   }
-
+h1,h2,h3,h4{
+	font-family: 'Raleway', sans-serif;
+}
 .imagen1{
 
     background-image:url("../assets/images/taxi.jpg");
@@ -37,7 +39,7 @@ body{
 	}
 	.phone{
 		top:10px;
-		border: 3px solid white;
+		border: 3px solid rgba(255, 255, 255, 0.356);
 	}
 	.drive{
 		background-image:url("../assets/images/conduce.jpg");
@@ -47,5 +49,99 @@ body{
 		margin: 0;
 		padding: 0;
 		height: 400px;;
-		/* opacity: 0.5; */
 	}
+
+	.text{
+		display: flex;
+		display: row;
+		justify-content: center;
+		background-color: rgba(49, 23, 23, 0.527);
+		height: 100%;
+			
+	}
+	.box-text{
+		color: white;
+		padding-top: 5rem;
+		width: 100%;
+
+	}
+	.conduce-1{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.conduce-2{
+		font-size: 18px;
+	}
+	.text-button{
+		background-color: rgb(247,182,23);
+	}
+	.tarifa{
+		background-color: rgb(247,182,23);
+	}
+	.tarifa-2{
+		color: white;
+		font-size: 2em;
+		font-weight: bold;
+	}
+	.tarifa-3{
+		color: white;
+		font-size: 1.5em;
+	}
+	.text1{
+		border: 2px solid white;
+		border-radius: 15%;
+	}
+	.text1,.text2{
+		background-color: rgb(247,182,23);
+		width: 90%;
+		
+	}
+	.btn-light{
+		background-color: white;
+		
+	}
+	.btn{
+		font-weight: bold;
+	}
+	.map{
+	background-color: rgb(247,182,23);
+	}
+	.footer{
+		background-color:rgb(43,43,43) 
+	}
+	.logoxs-footer{
+		padding-top: 30px;
+		padding-left: 13px
+	}
+
+	.line-white{
+		height: 3px;
+		width: 90%;
+		color: white;
+	}
+	.text-option{
+		list-style: none;
+		color: white;
+		padding-left: 0;
+		line-height: 33px
+	}
+
+	.footer-1{
+		line-height: 20px; 
+	}
+
+	.footer-2{
+		color: white;
+		letter-spacing: 8px;
+		font-size: 17px;
+		padding-left: 10px
+		/* line-height :20px; */
+	}
+	.footer-3{
+		line-height: 33px;
+	}
+
+
+
+
+
