@@ -13,50 +13,70 @@
 		<link rel="stylesheet" href="css/main.css">
 
     <title>Lab-Car-boilerplate</title>
+
 </head>
-<body>
+<body> 
+  <nav class="navbar navbar-fixed-top">   <!--Navbar-->
+		<div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand align-middle" href="#">
+            <img alt="Brand" src="assets/images/logoForma.png">
+        </a>
+      </div>
+          <!-- enlaces de nav -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="#">Viaja</a>
+            </li>
+            <li>
+                <a href="#">Conduce</a>
+            </li>
+            <li>
+                <a data-toggle="modal" data-target="#myModal" href="#">Iniciar Sesión</a>
+            </li>
+        </ul>
+      </div>
+    </div>  <!-- container -->
+	</nav>
 
-					<!--Navbar-->
-    <nav class="navbar navbar-fixed-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-6">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-							aria-controls="navbar">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+    <section class="jumbotron imagen1">  
+      <div class="container">
+        <div class="row">   <!-- star version mobil -->
+					<div class="col-xs-8 col-xs-offset-4 hidden-sm hidden-md hidden-lg box-1">
+						<h3 class="text-mobile">Comienza a viajar<br>con</h3><span><img class="img-responsive logoxs" src="assets/images/logoBlanco.png" alt="logo-movil"></span>        <br><br>
+						  <p><button type="button" class="btn btn-lg btn-default">Descargar la app</button></p>
+          </div> <!--col-xs  finish version mobil--> 
 
-						<img src="assets/images/logoForma.png"  class="img-fluid" alt="logo">
+          <!-- desktop -->
+          <div class="row">
+            <div class="bg-orange-desktop hidden-xs">
+                <h3>Disfruta del viaje </h3>
+                <h3>Eres dueño de tu tiempo</h3>
+                <div class="logo-section">
+                    <p class="text-logo">Viaja con </p>
+                    <div class="box-logo">
+                        <img class='logo-white' src="assets/images/logoBlanco.png" alt="logo-blanco">
+                    </div>
+                </div>
+                <button class="btn btn-white" data-toggle="modal" data-target="#modal-register" data-backdrop="false">REGíSTRATE</button>
+                <div class="line">
+                    <span>o bien</span>
+                </div>
+                <button class="btn btn-white btn-desktop" data-toggle="modal" data-target="#modal-driver" data-backdrop="false">Conviertete en conductor</button>
+            </div>
+          </div>
 
-						<div id="navbar" class="navbar-collapse collapse navbar-right">
-							<ul class="nav navbar-nav">
-								<li class="active"> 
-									<a href="#viaja">Viaja</a>
-								</li>
-								<li> 
-									<a href="#conduce">Conduce</a>
-								</li>
-								<li> 
-									<a href="#sesion">Inicia sesión</a>
-								</li>
-							</ul>
-						</div>  <!-- div del ul -->
-					</div>  <!-- col -->
-				</div> <!-- row -->
-			</div>  <!-- container -->
-		</nav>
-
-    <section class="jumbotron  imagen1">
-        <div class="container">
-					<div class="col-xs-8 offset-xs-4 col-md-6  box-1">
-						<h3 class="text-movil">Comienza a viajar<br>con</h3><span><img class="img-responsive logoxs" src="assets/images/logoBlanco.png" alt="logo-movil"></span> <br><br>
-						<p><button type="button" class="btn btn-lg btn-default">Descargar la app</button></p>
-					</div>
-				</div> 
-		</section> <!--car-yellow -->
+        </div>  <!--row-->
+			</div> <!--container-->
+    </section> <!--car-yellow -->
 
 		<section class="cell-phone">
 			<div class="container">
@@ -73,7 +93,6 @@
 				</div> <!--row-->
 			</div> <!--container-->
 	 </section> <!--cell phone-->
-
 
 	 <section class="drive">
 			<div class="container-fluid text ">

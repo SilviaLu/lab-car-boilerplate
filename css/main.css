@@ -1,12 +1,15 @@
-/* Los estilos de tu proyecto */
+/* helpers */
 body{
     padding-top: 70px;
-  }
+	}
+
 h1,h2,h3,h4{
 	font-family: 'Raleway', sans-serif;
 }
-.imagen1{
 
+	/* mobile */
+
+ .imagen1{
     background-image:url("../assets/images/taxi.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -16,32 +19,36 @@ h1,h2,h3,h4{
 		margin: 0;
 	} 
 	
-.text-movil{
+.text-mobile{
 		font-size: 40px;
-	
 	}
+
 .logoxs{
 		width: 70px;
 		height: 15px;
 	}
-.box-1{
 
-    background-color: rgb(247,182,23);
+.box-1{
+		background-color: rgb(247,182,23);
     color: white;
     float: right;
 	}
-	.cell-phone{
+
+.cell-phone{
 		background-color: rgb(247,182,23);
 	}
-	.text-center{
+
+.text-center{
 		color: white;
 		padding: 10px;
 	}
-	.phone{
+
+.phone{
 		top:10px;
 		border: 3px solid rgba(255, 255, 255, 0.356);
 	}
-	.drive{
+
+.drive{
 		background-image:url("../assets/images/conduce.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -51,64 +58,74 @@ h1,h2,h3,h4{
 		height: 400px;;
 	}
 
-	.text{
+.text{
 		display: flex;
 		display: row;
 		justify-content: center;
 		background-color: rgba(49, 23, 23, 0.527);
 		height: 100%;
-			
 	}
-	.box-text{
+
+.box-text{
 		color: white;
 		padding-top: 5rem;
 		width: 100%;
 
 	}
-	.conduce-1{
+.conduce-1{
 		font-size: 20px;
 		font-weight: bold;
 	}
-	.conduce-2{
+
+.conduce-2{
 		font-size: 18px;
 	}
-	.text-button{
+
+.text-button{
 		background-color: rgb(247,182,23);
 	}
-	.tarifa{
+
+.tarifa{
 		background-color: rgb(247,182,23);
 	}
-	.tarifa-2{
+
+.tarifa-2{
 		color: white;
 		font-size: 2em;
 		font-weight: bold;
 	}
-	.tarifa-3{
+
+.tarifa-3{
 		color: white;
 		font-size: 1.5em;
 	}
-	.text1{
+
+.text1{
 		border: 2px solid white;
 		border-radius: 15%;
 	}
-	.text1,.text2{
+
+.text1,.text2{
 		background-color: rgb(247,182,23);
 		width: 90%;
-		
 	}
+
 	.btn-light{
 		background-color: white;
-		
 	}
+
 	.btn{
 		font-weight: bold;
 	}
+
 	.map{
 	background-color: rgb(247,182,23);
 	}
+
 	.footer{
 		background-color:rgb(43,43,43) 
 	}
+
 	.logoxs-footer{
 		padding-top: 30px;
 		padding-left: 13px
@@ -119,13 +136,14 @@ h1,h2,h3,h4{
 		width: 100%;
 		color: white;
 	}
+
 	.text-option{
 		list-style: none;
 		color: white;
 		padding-left: 0;
 		line-height: 33px
 	}
-
+	
 	.footer-1{
 		line-height: 20px; 
 	}
@@ -135,20 +153,61 @@ h1,h2,h3,h4{
 		letter-spacing: 8px;
 		font-size: 17px;
 		padding-left: 10px
-	}
+	} 
+
 	.footer-3{
 		top: 20px;
 		right: 44px;
 	}
+
 	.appstore{
 		padding-top:18px; 
 	}
+
   .text-finish{
 	color: white;
 	padding-bottom: 10px;
 	padding-left: 30px;
+	}
+
+	/* desktop */
+
+.box-md{
+	background-color: rgb(247,182,23);
+	font-size: 20px;
+	height: 30vh;
+	margin-left: 25%;
+	padding: 0.6em 0 0.6em 1.2em
 }
 
+	/* nuevo */
+.bg-orange {
+	background-color: rgb(247,182,23);
+	/* background-color: var(--orange); */
+	height: 30vh;
+	margin-left: 25%;
+	padding: 0.6em 0 0.6em 1.2em
+}
 
+.bg-orange-desktop {
+		background-color: rgb(247,182,23);
+    margin-left: 64%;
+    padding: 2em;
+    background-color: var(--orange);
+}
 
+.box-logo,
+.text-logo {
+    display: inline;
+}
+
+.line:after,
+.line:before {
+		content: '';
+		display: inline-block;
+		height: 1px;
+    width: 40%;
+    background-color: white;
+   
+/* nuevo */
 
