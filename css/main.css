@@ -1,7 +1,16 @@
 /* helpers */
+
 body{
-    padding-top: 70px;
+	margin: 0;
+  padding: 0;
 	}
+
+.navbar-brand img {
+		width: 70%;
+		padding-top:5px;
+		padding-left: 20px;
+		
+}
 
 h1,h2,h3,h4{
 	font-family: 'Raleway', sans-serif;
@@ -110,41 +119,41 @@ h1,h2,h3,h4{
 		width: 90%;
 	}
 
-	.btn-light{
+.btn-light{
 		background-color: white;
 	}
 
-	.btn{
+.btn{
 		font-weight: bold;
 	}
 
-	.map{
+.map{
 	background-color: rgb(247,182,23);
 	}
 
-	.footer{
+.footer{
 		background-color:rgb(43,43,43) 
 	}
 
-	.logoxs-footer{
+.logoxs-footer{
 		padding-top: 30px;
 		padding-left: 13px
 	}
 
-	.line{
+.line{
 		height: 3px;
 		width: 100%;
 		color: white;
 	}
 
-	.text-option{
+.text-option{
 		list-style: none;
 		color: white;
 		padding-left: 0;
 		line-height: 33px
 	}
 	
-	.footer-1{
+.footer-1{
 		line-height: 20px; 
 	}
 
