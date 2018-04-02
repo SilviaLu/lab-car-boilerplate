@@ -22,9 +22,11 @@ Tiene como objetivo facilitar a las persona a encontrar transporte, puede ser us
  La estructura del flujo es el siguiente:
  
  ### **Flujos**
+ 
  Se realizó en versión **Desktop** y versión **Móbil**.
 
 **Versión Móbil**
+
  ![Lab-car mobile](assets/docs/lab-car-mobile.png "Versión mobile")
 
 - Implementación de modal de inicio de sesión
