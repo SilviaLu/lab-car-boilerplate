@@ -19,9 +19,7 @@ h1,h2,h3,h4{
 	/* mobile */
 
  .imagen1{
-    background-image:url("../assets/images/taxi.jpg");
-    background-repeat: no-repeat;
-    background-position: center bottom;
+    background: url("../assets/images/taxi.jpg") no-repeat center bottom;
     background-size: cover;
     width: 100%;
 		height: 650px;
@@ -53,8 +51,11 @@ h1,h2,h3,h4{
 	}
 
 .phone{
-		top:10px;
-		border: 3px solid rgba(255, 255, 255, 0.356);
+		/* top:10px; */
+		/* border: 3px solid rgba(255, 255, 255, 0.356); */
+		border: 1px solid white;
+    margin: 1em;
+    padding: 1.5em;
 	}
 
 .drive{
@@ -111,7 +112,7 @@ h1,h2,h3,h4{
 
 .text1{
 		border: 2px solid white;
-		border-radius: 15%;
+		border-radius: 10px;
 	}
 
 .text1,.text2{
