@@ -2,7 +2,7 @@
 Este proyecto se realizo Mobile First y luego en su versión Desktop.
 Tiene como objetivo facilitar a las persona a encontrar transporte, puede ser usado también por los conductores, para que brinden sus servicio, previamente registrandose en la App.
 
-![Lab-car desktop](assets/docs/labcar-img1.png)
+![lab-car-desktop](https://user-images.githubusercontent.com/32303082/39156448-c5dbf756-471b-11e8-8ff6-1dec75d94930.png)
 
 ## **LAB-CAR APP**
 
